@@ -32,7 +32,7 @@ export const Game = ({ step, question, correct, setStep, setCorrect }) => {
         </div>
       ) : (
         <div className="result">
-          <button onClick={() => navigate('/result')}>
+          <button onClick={() => navigate('/quiz/result')}>
             Посмотреть результат
           </button>
         </div>

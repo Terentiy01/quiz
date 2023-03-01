@@ -9,7 +9,7 @@ export const Start = () => {
       <p>
         Нужно ответить на мои 10 вопросов, всё просто. Готов? Тогда приступай!
       </p>
-      <button onClick={() => navigate('/game')}>Начать</button>
+      <button onClick={() => navigate('/quiz/game')}>Начать</button>
     </div>
   )
 }

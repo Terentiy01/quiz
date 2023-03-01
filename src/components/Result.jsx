@@ -7,7 +7,7 @@ export const Result = ({ correct, setCorrect, setStep }) => {
   const finish = () => {
     setStep(0)
     setCorrect(0)
-    navigate('/')
+    navigate('/quiz')
   }
 
   return (

@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route element={<Start />} path="/" />
+          <Route element={<Start />} path="/quiz" />
           <Route
             element={
               <Game
@@ -26,7 +26,7 @@ function App() {
                 setCorrect={setCorrect}
               />
             }
-            path="/game"
+            path="/quiz/game"
           />
           <Route
             element={
@@ -36,7 +36,7 @@ function App() {
                 setCorrect={setCorrect}
               />
             }
-            path="/result"
+            path="/quiz/result"
           />
         </Routes>
       </div>
