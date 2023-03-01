@@ -31,9 +31,11 @@ export const Game = ({ step, question, correct, setStep, setCorrect }) => {
           </ul>
         </div>
       ) : (
-        <button onClick={() => navigate('/result')}>
-          Посмотреть результат
-        </button>
+        <div className="result">
+          <button onClick={() => navigate('/result')}>
+            Посмотреть результат
+          </button>
+        </div>
       )}
     </>
   )

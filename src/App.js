@@ -16,7 +16,6 @@ function App() {
       <div className="App">
         <Routes>
           <Route element={<Start />} path="/" />
-          {step !== questions.length}
           <Route
             element={
               <Game
